@@ -77,13 +77,46 @@ button {
   border-radius: 25px;
   font-size: 15px;
   color: black;
+  transition: all 0.2s ease-in-out;
 }
 button:hover {
-  scale: 1.1;
+  transform: scale(1.1);
+  cursor: pointer;
 }
 .contact {
   background-color: rgb(103, 161, 120);
 }
 .infos {
   border: 2px solid rgb(103, 161, 120);
+}
+/** Nos services*/
+.services {
+  padding-top: 10vh;
+  width: 100vw;
+  height: 90vh;
+  background-color: blueviolet;
+}
+
+/* credit impot*/
+.impots {
+  padding-top: 10vh;
+  width: 100vw;
+  height: 90vh;
+  background-color: blue;
+}
+
+/* gallerie*/
+.gallerie {
+  padding-top: 10vh;
+  width: 100vw;
+  height: 90vh;
+  background-color: greenyellow;
+}
+
+/* contact*/
+.form_contact {
+  padding-top: 10vh;
+  width: 100vw;
+  height: 90vh;
+  background-color: gray;
 }
