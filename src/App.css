@@ -18,13 +18,15 @@
   font-size: 20px;
   /* justify-content: flex-end; */
   padding-right: 50px;
+  font-weight: bold;
 }
 .nav-item {
   list-style-type: none;
   cursor: pointer;
 }
 .nav-item:hover {
-  border-bottom: 3px solid rgb(103, 161, 120);
+  /* border-bottom: 3px solid rgb(103, 161, 120); */
+  color: rgb(103, 161, 120);
 }
 .navbar_burger {
   width: 40px;
@@ -48,7 +50,7 @@
   background-image: url(./assets/mower.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.9;
+  opacity: 0.8;
   position: relative;
 }
 
@@ -59,7 +61,7 @@
   top: 33%;
   left: 5%;
   background-color: white;
-  opacity: 0.8;
+  opacity: 0.9;
   border-radius: 10px;
   display: flex;
   justify-content: center;
@@ -91,10 +93,59 @@ button:hover {
 }
 /** Nos services*/
 .services {
-  padding-top: 10vh;
+  padding-top: 5vh;
   width: 100vw;
-  height: 90vh;
-  background-color: blueviolet;
+  height: 95vh;
+  background-image: url(./assets/pelouse.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.background_icons {
+  /* background-color: white; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 50vh;
+  transform: translateY(-50%);
+}
+.background_white {
+  background-color: white;
+  width: 100vw;
+  /* height: 50px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+  padding: 20px 0;
+}
+.icones_services {
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  justify-content: center;
+  /* border: 1px solid green; */
+  gap: 50px;
+}
+.content_icons {
+  /* border: 1px solid blue; */
+  display: flex;
+  align-items: center;
+}
+.icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.rond_icon {
+  border: 5px solid rgb(103, 161, 120);
+  padding: 30px;
+  border-radius: 50%;
+}
+.icons img {
+  width: 60px;
+  height: 60px;
 }
 
 /* credit impot*/
