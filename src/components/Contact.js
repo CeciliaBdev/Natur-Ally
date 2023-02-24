@@ -9,7 +9,7 @@ function Contact() {
           method="POST"
           name="contact"
           data-netlify="true"
-          // onSubmit="submit"
+          onSubmit="submit"
         >
           <input type="hidden" name="form-name" value="contact" />
           <label htmlFor="name">Nom: </label>
