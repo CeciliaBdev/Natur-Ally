@@ -153,7 +153,38 @@ button:hover {
   padding-top: 10vh;
   width: 100vw;
   height: 90vh;
-  background-color: blue;
+  /* background-color: rgb(103, 161, 120); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.impots_texte {
+  background-color: white;
+  opacity: 0.75;
+  box-shadow: rgba(0, 0, 0, 0.15) 10px 15px 10px;
+  width: 35vw;
+  height: 50vh;
+  border: 1px solid rgb(103, 161, 120);
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.credit {
+  border: 3px solid rgb(103, 161, 120);
+  padding: 30px 20px;
+  border-radius: 25px;
+}
+.services_personnes img {
+  position: absolute;
+  width: 350px;
+  height: 200px;
+  bottom: 100px;
+  right: 80px;
+  rotate: 20deg;
 }
 
 /* gallerie*/
