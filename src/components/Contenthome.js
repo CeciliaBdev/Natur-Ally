@@ -13,8 +13,8 @@ function Contenthome() {
           fugit ea minus ipsam, autem quod beatae impedit provident.
         </p>
         <div className="buttons">
-          <button className="contact">Contactez nous</button>
-          <button className="infos">Plus d'infos</button>
+          <button className="button_contact">Contactez nous</button>
+          <button className="button_infos">Plus d'infos</button>
         </div>
       </div>
     </div>

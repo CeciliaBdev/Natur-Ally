@@ -85,10 +85,10 @@ button:hover {
   transform: scale(1.1);
   cursor: pointer;
 }
-.contact {
+.button_contact {
   background-color: rgb(103, 161, 120);
 }
-.infos {
+.button_infos {
   border: 2px solid rgb(103, 161, 120);
 }
 /** Nos services*/
@@ -200,5 +200,76 @@ button:hover {
   padding-top: 10vh;
   width: 100vw;
   height: 90vh;
-  background-color: gray;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form_content form {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  border: 1px solid white;
+  padding: 40px;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.form_content input {
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgb(103, 161, 120);
+}
+.form_content input,
+.form_content textarea,
+.form_content button {
+  margin: 10px 5px;
+  padding: 2px;
+}
+.form_content textarea {
+  height: 150px;
+  border: 1px solid rgb(103, 161, 120);
+  border-radius: 5px;
+}
+.form_content button {
+  font-size: 18px;
+  border: 1px solid #e5e5e5;
+  /* background-color: rgba(209, 157, 157, 0.6); */
+  border-radius: 15px;
+  width: 40%;
+  padding: 10px;
+  margin: 20px auto;
+  transition: all 0.6s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.form_content button:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: rgb(103, 161, 120);
+  transition: all 0.6s;
+  z-index: -1;
+}
+.form_content button:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #e5e5e5;
+  transition: all 0.5s;
+  z-index: -2;
+}
+.form_content button:hover {
+  cursor: pointer;
+}
+.form_content button:hover:before {
+  width: 100%;
 }
