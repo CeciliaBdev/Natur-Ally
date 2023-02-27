@@ -2,6 +2,7 @@ import icon_tondeuse from '../assets/tondeuse.png'
 import icon_cisailles from '../assets/cisailles.png'
 import icon_feuille from '../assets/feuille.png'
 import icon_contrat from '../assets/contrat.png'
+import pelouse from '../assets/pelouse.jpg'
 
 const datasMocked = [
   {
@@ -34,25 +35,28 @@ function NosServices() {
   return (
     <div className="services" id="services">
       <div className="background_icons">
-        {/* <h2>Nos services</h2> */}
-        <div className="background_white">
-          <h2>Nos services</h2>
-        </div>
-        <div className="background_white">
-          <div className="icones_services">
-            {datasMocked.map((data, index) => (
-              <div key={index} className="content_icons ">
-                <div className="icons">
-                  <div className="rond_icon">
-                    <img src={data.img} alt={data.type} className="" />
-                  </div>
+        <p>
+          Nous vous proposons les prestations suivantes pour entrenir vos
+          espaces verts
+        </p>
 
-                  <p className="">{data.text}</p>
+        <div className="icones_services">
+          {datasMocked.map((data, index) => (
+            <div key={index} className="content_icons ">
+              <div className="icons">
+                <div className="rond_icon">
+                  <img src={data.img} alt={data.type} className="" />
                 </div>
-                {/* <p className="">{data.title}</p> */}
+
+                <p className="">{data.text}</p>
               </div>
-            ))}
-          </div>
+              {/* <p className="">{data.title}</p> */}
+            </div>
+          ))}
+        </div>
+
+        <div className="bg_img">
+          <img src={pelouse} alt="" />
         </div>
       </div>
     </div>

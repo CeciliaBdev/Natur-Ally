@@ -93,38 +93,48 @@ button:hover {
 }
 /** Nos services*/
 .services {
-  padding-top: 5vh;
+  /* padding-top: 5vh; */
   width: 100vw;
-  height: 95vh;
-  background-image: url(./assets/pelouse.jpg);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.bg_img img {
+  height: 28vh;
+  width: 100vw;
+  object-fit: cover;
+
+  /* background-image: url(./assets/pelouse.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 .background_icons {
-  /* background-color: white; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  gap: 50px;
+  align-items: center;
+  height: 100vh;
+  margin-top: 20vh;
+  background-color: white;
+}
+.services {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  gap: 50px;
-  margin-top: 50vh;
-  transform: translateY(-50%);
-}
-.background_white {
-  background-color: white;
-  width: 100vw;
-  /* height: 50px; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  opacity: 0.8;
-  padding: 20px 0;
+  gap: 40px;
 }
 .icones_services {
   display: grid;
   grid-template-columns: repeat(4, 200px);
   justify-content: center;
-  /* border: 1px solid green; */
   gap: 50px;
 }
 .content_icons {
@@ -196,7 +206,7 @@ button:hover {
 }
 
 /* contact*/
-.form_contact {
+.contact {
   padding-top: 10vh;
   width: 100vw;
   height: 90vh;
@@ -205,6 +215,7 @@ button:hover {
   justify-content: center;
   align-items: center;
 }
+/*
 .form_content form {
   display: flex;
   flex-direction: column;
@@ -235,7 +246,6 @@ button:hover {
 .form_content button {
   font-size: 18px;
   border: 1px solid #e5e5e5;
-  /* background-color: rgba(209, 157, 157, 0.6); */
   border-radius: 15px;
   width: 40%;
   padding: 10px;
@@ -272,4 +282,4 @@ button:hover {
 }
 .form_content button:hover:before {
   width: 100%;
-}
+} */
