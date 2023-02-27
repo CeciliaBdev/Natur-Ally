@@ -160,21 +160,31 @@ button:hover {
 
 /* credit impot*/
 .impots {
-  padding-top: 10vh;
+  /* padding-top: 10vh; */
   width: 100vw;
-  height: 90vh;
-  background-color: rgba(103, 161, 120, 0.7);
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
+}
+.bloc_impot {
+  height: fit-content;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  margin-top: 10vh;
+  /* border: 1px solid red; */
+}
+.content_impots {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .impots_texte {
   background-color: white;
   opacity: 0.75;
   box-shadow: rgba(0, 0, 0, 0.15) 10px 15px 10px;
-  width: 35vw;
-  height: 50vh;
   border: 1px solid rgb(103, 161, 120);
   border-radius: 25px;
   display: flex;
@@ -182,6 +192,7 @@ button:hover {
   justify-content: center;
   align-items: center;
   gap: 50px;
+  padding: 20px;
 }
 .credit {
   border: 3px solid rgb(103, 161, 120);
@@ -189,12 +200,14 @@ button:hover {
   border-radius: 25px;
 }
 .services_personnes img {
-  position: absolute;
   width: 350px;
   height: 200px;
-  bottom: 60px;
-  left: 60px;
-  rotate: -20deg;
+  rotate: 10deg;
+}
+.impots_details {
+  background-color: rgb(103, 161, 120);
+  padding: 30px;
+  text-align: justify;
 }
 
 /* gallerie*/

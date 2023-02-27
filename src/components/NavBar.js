@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-scroll'
-import logo from '../assets/logo.png'
+import accueil from '../assets/accueil.png'
 import '../App.css'
 
 function Navbar() {
@@ -13,7 +13,7 @@ function Navbar() {
         offset={0}
         duration={700}
       >
-        <img src={logo} alt="" height="60px" />
+        <img src={accueil} alt="" height="60px" />
       </Link>
 
       <ul>
