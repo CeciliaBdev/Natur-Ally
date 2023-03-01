@@ -1,3 +1,4 @@
+import { Link } from 'react-scroll'
 function Contenthome() {
   return (
     <div className="content_home" id="content_home">
@@ -13,8 +14,18 @@ function Contenthome() {
           fugit ea minus ipsam, autem quod beatae impedit provident.
         </p>
         <div className="buttons">
-          <button className="button_contact">Contactez nous</button>
-          <button className="button_infos">Plus d'infos</button>
+          <Link to="contact" spy={true} smooth={true} offset={0} duration={700}>
+            <button className="button_contact">Contactez nous</button>
+          </Link>
+          <Link
+            to="services"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={700}
+          >
+            <button className="button_infos">Plus d'infos</button>
+          </Link>
         </div>
       </div>
     </div>

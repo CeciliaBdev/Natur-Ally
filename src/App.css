@@ -65,7 +65,6 @@
   display: flex;
   justify-content: center;
   gap: 50px;
-  opacity: 1;
 }
 button {
   padding: 15px 30px;
@@ -73,17 +72,14 @@ button {
   font-size: 15px;
   color: black;
   transition: all 0.2s ease-in-out;
+  border: 2px solid black;
 }
 button:hover {
   transform: scale(1.1);
   cursor: pointer;
-}
-.button_contact {
   background-color: rgb(103, 161, 120);
 }
-.button_infos {
-  border: 2px solid rgb(103, 161, 120);
-}
+
 /** Nos services*/
 .services {
   width: 100vw;
