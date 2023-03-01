@@ -1,10 +1,58 @@
-import React from 'react'
-
 function Contact() {
   return (
     <div className="contact" id="contact">
-      <p>N'hésitez pas à nous joindre</p>
-      <a href="mailto:ceciliabdev@gmail.com">Click to Send an Email</a>
+      <div className="contact_content">
+        <h2>Déplacement et Devis gratuits</h2>
+        <p>N'hésitez pas à nous joindre</p>
+        <div className="icon_contact">
+          <div className="tel">
+            {/* <img src={phone} alt="" width="74px" /> */}
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="74"
+              height="74"
+              fill="black"
+              viewBox="0 0 32 32 "
+            >
+              <path
+                fill="#black"
+                fillRule="evenodd"
+                d="M12.913 4.734c-.812-1.069-2.29-1.512-3.567-.858-.627.321-1.388.75-2.073 1.246-2.797 2.028-3.003 5.853-1.139 8.514 1.248 1.78 3.06 4.043 5.622 6.605 2.562 2.562 4.825 4.374 6.604 5.621 2.663 1.866 6.486 1.662 8.515-1.138.508-.7.936-1.458 1.255-2.082.652-1.274.204-2.744-.858-3.55l-2.294-1.743a3.65 3.65 0 0 0-4.787.325.325.325 0 0 1-.46 0l-5.408-5.409a.324.324 0 0 1 0-.459 3.65 3.65 0 0 0 .325-4.787l-1.735-2.285Zm-2.655.922c.333-.17.78-.083 1.062.288l1.736 2.285a1.65 1.65 0 0 1-.148 2.163 2.325 2.325 0 0 0 0 3.288l5.41 5.409a2.324 2.324 0 0 0 3.287 0 1.65 1.65 0 0 1 2.163-.147l2.294 1.742c.37.28.454.721.288 1.047a14.15 14.15 0 0 1-1.094 1.82c-1.271 1.752-3.806 2.034-5.748.673-1.686-1.181-3.86-2.919-6.338-5.397-2.478-2.479-4.216-4.652-5.398-6.338-1.359-1.94-1.076-4.478.675-5.748.57-.413 1.23-.788 1.81-1.085Z"
+                clipRule="evenodd"
+              />
+              <path
+                fill="#black"
+                d="M20.164 4.014a1 1 0 1 0-.328 1.972l.363.061a7 7 0 0 1 5.754 5.754l.06.363a1 1 0 1 0 1.973-.328l-.06-.364a9 9 0 0 0-7.398-7.398l-.364-.06ZM19.141 8.01a1 1 0 1 0-.282 1.98l.53.076a3 3 0 0 1 2.545 2.545l.076.53a1 1 0 1 0 1.98-.282l-.076-.53a5 5 0 0 0-4.242-4.243l-.53-.076Z"
+              />
+            </svg>
+
+            <p>06 98 85 40 59</p>
+          </div>
+          <div className="email">
+            <a href="mailto:ceciliabdev@gmail.com">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="74"
+                height="74"
+                fill="none"
+                viewBox="0 0 32 32"
+              >
+                <path
+                  fill="#000"
+                  d="M8.53 10.152a1 1 0 0 0-1.06 1.696l8 5a1 1 0 0 0 1.06 0l8-5a1 1 0 0 0-1.06-1.696L16 14.821l-7.47-4.669ZM11.6 16.2a1 1 0 0 1 .2 1.4l-3 4a1 1 0 1 1-1.6-1.2l3-4a1 1 0 0 1 1.4-.2Zm8.6 1.4a1 1 0 0 1 1.6-1.2l3 4a1 1 0 0 1-1.6 1.2l-3-4Z"
+                />
+                <path
+                  fill="#000"
+                  fillRule="evenodd"
+                  d="M7 6a4 4 0 0 0-4 4v12a4 4 0 0 0 4 4h18a4 4 0 0 0 4-4V10a4 4 0 0 0-4-4H7Zm-2 4a2 2 0 0 1 2-2h18a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V10Z"
+                  clipRule="evenodd"
+                />
+              </svg>
+            </a>
+            <p>naturallyjardinsetservices@gmail.com</p>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }

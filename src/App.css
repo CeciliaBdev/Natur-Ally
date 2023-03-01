@@ -1,12 +1,20 @@
+.App {
+  background-image: url(./assets/jardin.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Carter One';
+}
 .navbar {
   position: fixed;
   z-index: 99;
-  /* border: 1px solid black; */
   width: 100%;
   height: 10vh;
   display: flex;
   align-items: center;
-  /* justify-content: flex-end; */
   justify-content: space-between;
   background-color: white;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
@@ -25,18 +33,9 @@
   cursor: pointer;
 }
 .nav-item:hover {
-  /* border-bottom: 3px solid rgb(103, 161, 120); */
   color: rgb(103, 161, 120);
 }
-.navbar_burger {
-  width: 40px;
-  height: 40px;
-  border: none;
-  color: black;
-  background-color: transparent;
-}
 .navbar img {
-  padding-left: 50px;
   cursor: pointer;
 }
 
@@ -45,34 +44,28 @@
   padding-top: 10vh;
   width: 100vw;
   height: 90vh;
-  /*pour pas que l'image se deforme si on reduit la hauteur*/
-  /* min-height: 970px; */
-  background-image: url(./assets/mower.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 0.8;
-  position: relative;
 }
 
 .home_title {
   width: 500px;
-  height: 300px;
+  height: 400px;
   position: absolute;
   top: 33%;
-  left: 5%;
+  right: 10%;
   background-color: white;
   opacity: 0.9;
   border-radius: 10px;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding: 30px;
+  padding: 20px 70px;
   text-align: justify;
 }
 .buttons {
   display: flex;
   justify-content: center;
   gap: 50px;
+  opacity: 1;
 }
 button {
   padding: 15px 30px;
@@ -93,37 +86,29 @@ button:hover {
 }
 /** Nos services*/
 .services {
-  /* padding-top: 5vh; */
   width: 100vw;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
-}
-.bg_img img {
-  height: 28vh;
-  width: 100vw;
-  object-fit: cover;
-
-  /* background-image: url(./assets/pelouse.jpg);
+  background-image: url(./assets/jardin.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
-  */
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
 }
+
 .background_icons {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   gap: 50px;
   align-items: center;
-  height: 100vh;
   margin-top: 20vh;
   background-color: white;
+  width: 80vw;
+  opacity: 0.9;
+  border-radius: 10px;
+  padding: 50px 10px;
 }
 .services {
   display: flex;
@@ -138,7 +123,6 @@ button:hover {
   gap: 50px;
 }
 .content_icons {
-  /* border: 1px solid blue; */
   display: flex;
   align-items: center;
 }
@@ -150,7 +134,7 @@ button:hover {
 }
 .rond_icon {
   border: 5px solid rgb(103, 161, 120);
-  padding: 30px;
+  padding: 30px 35px;
   border-radius: 50%;
 }
 .icons img {
@@ -166,6 +150,11 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url(./assets/jardin.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
 }
 .bloc_impot {
   height: fit-content;
@@ -180,13 +169,12 @@ button:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px 50px;
+  opacity: 0.9;
 }
 .impots_texte {
-  background-color: white;
-  opacity: 0.75;
-  box-shadow: rgba(0, 0, 0, 0.15) 10px 15px 10px;
-  border: 1px solid rgb(103, 161, 120);
-  border-radius: 25px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -206,7 +194,7 @@ button:hover {
 }
 .impots_details {
   background-color: rgb(103, 161, 120);
-  padding: 30px;
+  padding: 30px 50px;
   text-align: justify;
 }
 
@@ -215,7 +203,11 @@ button:hover {
   padding-top: 10vh;
   width: 100vw;
   height: 90vh;
-  background-color: greenyellow;
+  background-image: url(./assets/jardin.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 /* contact*/
@@ -223,8 +215,45 @@ button:hover {
   padding-top: 10vh;
   width: 100vw;
   height: 90vh;
-  background-color: white;
+  background-image: url(./assets/jardin.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+.contact_content {
+  background-color: white;
+  width: 60vw;
+  height: 50vh;
+  border-radius: 10px;
+  opacity: 0.9;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.icon_contact {
+  display: flex;
+  /* border: 1px solid blue; */
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+svg:hover path {
+  transform-origin: center;
+  transform: scale(1.2);
+  fill: rgb(103, 161, 120);
+}
+.tel,
+.email {
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }

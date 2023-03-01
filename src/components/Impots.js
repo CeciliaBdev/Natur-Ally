@@ -10,7 +10,9 @@ function Impots() {
             <div className="credit">
               <p>Bénéficiez de 50 % * de crédit d'impôt</p>
             </div>
-            <p>selon l'article 100 sexdecies du code général des impôts</p>
+            <p style={{ fontStyle: 'italic', fontSize: '12px' }}>
+              * selon l'article 100 sexdecies du code général des impôts
+            </p>
           </div>
           <div className="services_personnes">
             <img src={services} alt="" />

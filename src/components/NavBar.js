@@ -13,7 +13,11 @@ function Navbar() {
         offset={0}
         duration={700}
       >
-        <img src={accueil} alt="" height="60px" />
+        <img
+          src={accueil}
+          alt="logo naturally"
+          style={{ height: 60, paddingLeft: 30 }}
+        />
       </Link>
 
       <ul>
@@ -33,7 +37,7 @@ function Navbar() {
             Credits d'impôts
           </Link>
         </li>
-        <li className="nav-item">
+        {/* <li className="nav-item">
           <Link
             to="gallerie"
             spy={true}
@@ -43,7 +47,7 @@ function Navbar() {
           >
             Gallerie
           </Link>
-        </li>
+        </li> */}
         <li className="nav-item">
           <Link to="contact" spy={true} smooth={true} offset={0} duration={700}>
             Contact

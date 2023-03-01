@@ -2,7 +2,6 @@ import icon_tondeuse from '../assets/tondeuse.png'
 import icon_cisailles from '../assets/cisailles.png'
 import icon_feuille from '../assets/feuille.png'
 import icon_contrat from '../assets/contrat.png'
-import pelouse from '../assets/pelouse.jpg'
 
 const datasMocked = [
   {
@@ -35,10 +34,10 @@ function NosServices() {
   return (
     <div className="services" id="services">
       <div className="background_icons">
-        <p>
+        <h2>
           Nous vous proposons les prestations suivantes pour entrenir vos
           espaces verts
-        </p>
+        </h2>
 
         <div className="icones_services">
           {datasMocked.map((data, index) => (
@@ -53,10 +52,6 @@ function NosServices() {
               {/* <p className="">{data.title}</p> */}
             </div>
           ))}
-        </div>
-
-        <div className="bg_img">
-          <img src={pelouse} alt="" />
         </div>
       </div>
     </div>

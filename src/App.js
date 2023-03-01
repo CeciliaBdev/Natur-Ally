@@ -13,7 +13,7 @@ function App() {
       <Contenthome />
       <NosServices />
       <Impots />
-      <Gallerie />
+      {/* <Gallerie /> */}
       <Contact />
     </div>
   )
