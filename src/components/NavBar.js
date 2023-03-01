@@ -16,7 +16,7 @@ function Navbar() {
         <img
           src={accueil}
           alt="logo naturally"
-          style={{ height: 60, paddingLeft: 30 }}
+          style={{ paddingLeft: 30, width: 400, height: 75 }}
         />
       </Link>
 
