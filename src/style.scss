@@ -50,7 +50,7 @@ $primary-color: rgb(103, 161, 120);
   width: 500px;
   height: 400px;
   position: absolute;
-  top: 33%;
+  top: 25%;
   right: 10%;
   background-color: white;
   opacity: 0.9;
@@ -82,8 +82,11 @@ button {
 }
 /** Nos services*/
 .services {
+  // width: 100vw;
+  // height: 100vh;
+  padding-bottom: 10vh;
   width: 100vw;
-  height: 100vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -135,7 +138,8 @@ button {
 /* credit impot*/
 .impots {
   width: 100vw;
-  height: 100vh;
+  height: 95vh;
+  padding-bottom: 5vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -150,7 +154,7 @@ button {
   width: 60%;
   display: flex;
   flex-direction: column;
-  gap: 70px;
+  gap: 30px;
   margin-top: 10vh;
 }
 .content_impots {
@@ -242,4 +246,47 @@ svg:hover path {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+/*footer*/
+.footer {
+  position: fixed;
+  bottom: 0;
+  z-index: 99;
+  width: 100%;
+  height: 5vh;
+  background-color: rgb(36, 34, 34);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  & ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding-left: 0;
+  }
+  & li {
+    color: white;
+    font-size: 10px;
+  }
+}
+/*Mentions légales*/
+.mentions {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  // justify-content: center;
+  align-items: center;
+  & img {
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    width: 300px;
+    cursor: pointer;
+  }
+  & li {
+    text-decoration: none;
+  }
 }
