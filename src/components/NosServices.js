@@ -5,25 +5,21 @@ import icon_contrat from '../assets/contrat.png'
 
 const datasMocked = [
   {
-    type: 'tondeuse',
     img: icon_tondeuse,
     title: 'Tondeuse',
     text: 'Tonte de pelouse, Scarification',
   },
   {
-    type: 'cisailles',
     img: icon_cisailles,
     title: 'Cisailles',
     text: 'Taille des haies, arbustes, arbres, fruitiers',
   },
   {
-    type: 'feuilles',
     img: icon_feuille,
     title: 'Feuilles',
     text: 'Ramassage de feuilles, désherbage',
   },
   {
-    type: 'contart',
     img: icon_contrat,
     title: 'Contrat',
     text: `Contrat d'entretien annuel`,
@@ -44,9 +40,8 @@ function NosServices() {
             <div key={index} className="content_icons ">
               <div className="icons">
                 <div className="rond_icon">
-                  <img src={data.img} alt={data.type} className="" />
+                  <img src={data.img} alt={data.text} className="" />
                 </div>
-
                 <p className="">{data.text}</p>
               </div>
               {/* <p className="">{data.title}</p> */}

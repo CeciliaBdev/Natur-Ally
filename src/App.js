@@ -1,6 +1,5 @@
-import './App.css'
+import './style.scss'
 import Contenthome from './components/Contenthome'
-import Gallerie from './components/Gallerie'
 import Impots from './components/Impots'
 import Navbar from './components/NavBar'
 import NosServices from './components/NosServices'
@@ -13,7 +12,6 @@ function App() {
       <Contenthome />
       <NosServices />
       <Impots />
-      {/* <Gallerie /> */}
       <Contact />
     </div>
   )

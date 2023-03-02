@@ -1,4 +1,4 @@
-import services from '../assets/services.png'
+import services_impots from '../assets/services_impots.png'
 
 function Impots() {
   return (
@@ -15,7 +15,7 @@ function Impots() {
             </p>
           </div>
           <div className="services_personnes">
-            <img src={services} alt="" />
+            <img src={services_impots} alt="" />
           </div>
         </div>
         <div className="impots_details">

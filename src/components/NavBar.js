@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-scroll'
 import accueil from '../assets/accueil.png'
-import '../App.css'
+import '../style.scss'
 
 function Navbar() {
   return (
@@ -19,7 +19,6 @@ function Navbar() {
           style={{ paddingLeft: 30, width: 400, height: 75 }}
         />
       </Link>
-
       <ul>
         <li className="nav-item">
           <Link
@@ -37,17 +36,6 @@ function Navbar() {
             Credits d'impôts
           </Link>
         </li>
-        {/* <li className="nav-item">
-          <Link
-            to="gallerie"
-            spy={true}
-            smooth={true}
-            offset={0}
-            duration={700}
-          >
-            Gallerie
-          </Link>
-        </li> */}
         <li className="nav-item">
           <Link to="contact" spy={true} smooth={true} offset={0} duration={700}>
             Contact
