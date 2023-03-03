@@ -4,11 +4,15 @@ function Footer() {
   return (
     <div className="footer">
       <ul>
+        <li>naturallyjardinsetservices@gmail.com</li>
+        <li>•</li>
         <Link to="/mentions" style={{ textDecoration: 'none' }}>
           <li>Mentions légales</li>
         </Link>
         <li>•</li>
-        <li>©Ceciliabdev - 2023</li>
+        <li>
+          <a href="mailto:ceciliabdev@gmail.com">© Ceciliabdev - 2023</a>
+        </li>
       </ul>
     </div>
   )

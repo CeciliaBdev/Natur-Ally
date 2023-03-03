@@ -266,6 +266,10 @@ svg:hover path {
     gap: 40px;
     padding-left: 0;
   }
+  & a {
+    text-decoration: none;
+    color: white;
+  }
   & li {
     color: white;
     font-size: 10px;
@@ -286,4 +290,11 @@ svg:hover path {
     width: 300px;
     cursor: pointer;
   }
+}
+.content_mentions {
+  padding: 50px 0px;
+  display: flex;
+  flex-direction: column;
+  width: 75vw;
+  text-align: justify;
 }
