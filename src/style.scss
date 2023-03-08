@@ -47,8 +47,8 @@ $primary-color: rgb(103, 161, 120);
   height: 90vh;
 }
 .home_title {
-  width: 500px;
-  height: 400px;
+  width: 700px;
+  height: 450px;
   position: absolute;
   top: 25%;
   right: 10%;
@@ -58,9 +58,24 @@ $primary-color: rgb(103, 161, 120);
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding: 20px 70px;
+  padding: 15px 40px;
   text-align: justify;
 }
+.presentation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  & p {
+    width: 66%;
+  }
+  & img {
+    width: 250px;
+    height: 250px;
+    clip-path: circle(50%);
+  }
+}
+
 .buttons {
   display: flex;
   justify-content: center;

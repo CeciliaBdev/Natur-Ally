@@ -12,7 +12,7 @@ const datasMocked = [
   {
     img: icon_cisailles,
     title: 'Cisailles',
-    text: 'Taille des haies, arbustes, arbres, fruitiers',
+    text: 'Taille des haies, arbustes, arbres fruitiers',
   },
   {
     img: icon_feuille,
