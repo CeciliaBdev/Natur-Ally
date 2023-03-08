@@ -116,24 +116,25 @@ button {
 .background_icons {
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 40px;
   align-items: center;
-  margin-top: 20vh;
+  margin-top: 15vh;
   background-color: white;
-  width: 80vw;
+  width: 70vw;
   opacity: 0.9;
   border-radius: 10px;
-  padding: 50px 10px;
+  padding: 20px 10px;
 }
 .icones_services {
   display: grid;
-  grid-template-columns: repeat(4, 200px);
+  grid-template-columns: repeat(3, 230px);
   justify-content: center;
-  gap: 50px;
+  gap: 10px 20px;
 }
 .content_icons {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .icons {
   display: flex;
@@ -149,6 +150,9 @@ button {
   border: 5px solid $primary-color;
   padding: 30px 35px;
   border-radius: 50%;
+  &:hover {
+    background-color: $primary-color;
+  }
 }
 /* credit impot*/
 .impots {

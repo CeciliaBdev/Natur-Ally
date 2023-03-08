@@ -2,6 +2,8 @@ import icon_tondeuse from '../assets/tondeuse.png'
 import icon_cisailles from '../assets/cisailles.png'
 import icon_feuille from '../assets/feuille.png'
 import icon_contrat from '../assets/contrat.png'
+import icon_haie from '../assets/haie.png'
+import icon_potager from '../assets/potager.png'
 
 const datasMocked = [
   {
@@ -23,6 +25,16 @@ const datasMocked = [
     img: icon_contrat,
     title: 'Contrat',
     text: `Contrat d'entretien annuel`,
+  },
+  {
+    img: icon_haie,
+    title: 'Haie',
+    text: `Création de massifs`,
+  },
+  {
+    img: icon_potager,
+    title: 'Potager',
+    text: `Réalisation de potager`,
   },
 ]
 
